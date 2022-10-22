@@ -1,0 +1,19 @@
+[package]
+name = "atomic_cell"
+version = "0.2.0"
+authors = ["Daniel Bloom <7810950-Daniel.Aaron.Bloom@users.noreply.gitlab.com>"]
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Daniel-Aaron-Bloom/atomic-cell"
+documentation = "https://docs.rs/atomic_cell"
+description = """
+Lock-free thread-safe mutable memory locations
+"""
+
+[dependencies]
+const_panic = "0.2.4"
+
+[features]
+default = []
+const = []
